@@ -16,15 +16,15 @@ const Menu = ({ isOpen }) => {
         <li>
           <a
             className="block py-2 hover:text-sky-400 active:text-sky-400 md:p-4"
-            href="#project"
+            href="#projects"
           >
-            Project
+            Projects
           </a>
         </li>
         <li>
           <a
             className="block py-2 hover:text-sky-400 active:text-sky-400 md:p-4"
-            href="#service"
+            href="#services"
           >
             Services
           </a>
@@ -32,9 +32,9 @@ const Menu = ({ isOpen }) => {
         <li>
           <a
             className="block py-2 hover:text-sky-400 active:text-sky-400 md:p-4"
-            href="#skill"
+            href="#skills"
           >
-            Skill
+            Skills
           </a>
         </li>
         <li>
