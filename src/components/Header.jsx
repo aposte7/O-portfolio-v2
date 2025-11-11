@@ -61,12 +61,7 @@ const Header = ({ resumePdf, isOpen, toggleMenu }) => {
             up for a challenge and eager to learn new things!
           </p>
           <div className="flex flex-wrap items-center gap-[7%] py-8">
-            <a
-              href={resumePdf}
-              target="_blank"
-              rel="noopener noreferrer"
-              download
-            >
+            <a href={resumePdf} target="_blank" rel="noopener noreferrer">
               <button className="flex cursor-pointer items-center gap-1.5 rounded-4xl bg-[linear-gradient(to_right,#2361ac,#8c2dbe)] px-4 py-1.5 text-white transition-all duration-300 hover:scale-105 hover:bg-[linear-gradient(to_right,#4083d5,#af66d9)] hover:shadow-lg hover:shadow-purple-300/30 sm:text-lg">
                 <span>Resume</span>
                 <HiDownload size="1.5rem" />

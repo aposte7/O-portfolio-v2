@@ -3,7 +3,9 @@ import specifyImage from "../src/assets/projects/specify.jpg";
 import tourImage from "../src/assets/projects/tour.jpg";
 import weatherioImage from "../src/assets/projects/weatherio.jpg";
 import wizardImage from "../src/assets/projects/wizard.jpg";
-import resumePdf from "../src/assets/files/Olman Gemechu Resume.pdf";
+// Use external CV link instead of bundling the PDF file
+const resumePdf =
+  "https://drive.google.com/file/d/1VToNGTDMfBHPc5os_BiFfhwGLJ98t0_z/view?usp=sharing";
 
 import { useState } from "react";
 import { FaPaintBrush, FaPlug } from "react-icons/fa";
