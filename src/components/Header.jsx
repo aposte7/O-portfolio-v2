@@ -4,7 +4,10 @@ import { RiTelegram2Fill } from "react-icons/ri";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { PiGithubLogo } from "react-icons/pi";
 
-const Header = ({ resumePdf, isOpen, toggleMenu }) => {
+const resumePdf =
+  "https://drive.google.com/file/d/1VToNGTDMfBHPc5os_BiFfhwGLJ98t0_z/view?usp=sharing";
+
+const Header = ({ isOpen, toggleMenu }) => {
   return (
     <header
       id="home"
