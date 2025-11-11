@@ -28,16 +28,9 @@ const services = [
     id: "performance",
     title: "Performance Optimization",
     description:
-      "Lightning-fast load times, Core Web Vitals, and SEO-ready code.",
+      "Lightning fast load times, Core Web Vitals, and SEO ready code.",
     icon: <SiSpeedtest className="text-5xl text-green-500" />,
     cta: { label: "Audit My Site", href: "mailto:your@email.com" },
-  },
-  {
-    id: "deployment",
-    title: "Deployment & DevOps",
-    description: "Deploy to Vercel, Netlify, Docker and monitoring.",
-    icon: <FaRocket className="text-5xl text-orange-500" />,
-    cta: { label: "Launch Now", href: "#contact" },
   },
 ];
 
