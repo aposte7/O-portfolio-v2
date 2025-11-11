@@ -3,7 +3,6 @@ import shopkooImage from "../assets/projects/shop-koo.png";
 import greenPillImage from "../assets/projects/green-pill.png";
 import blogImage from "../assets/projects/blog-lib.png";
 import specifyImage from "../assets/projects/specify.jpg";
-import tourImage from "../assets/projects/tour.jpg";
 import weatherioImage from "../assets/projects/weatherio.jpg";
 import wizardImage from "../assets/projects/wizard.jpg";
 import ProjectCard from "./ProjectCard";

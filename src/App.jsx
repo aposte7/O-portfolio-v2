@@ -30,14 +30,14 @@ function App() {
   const toggleMenu = () => setIsOpen((prev) => !prev);
 
   return (
-    <>
+    <div className="bg-slate-950/85">
       <Header isOpen={isOpen} toggleMenu={toggleMenu} />
       <Projects />
       <Services />
       <Skills />
       <Contact submitted={submitted} handleSubmit={handleSubmit} />
       <Footer />
-    </>
+    </div>
   );
 }
 
