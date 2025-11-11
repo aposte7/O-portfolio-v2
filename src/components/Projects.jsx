@@ -85,7 +85,7 @@ const Projects = () => {
   return (
     <section id="projects" className="px-5 py-24 md:px-10 lg:px-28">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-16 bg-gradient-to-r from-sky-400 to-cyan-400 bg-clip-text text-center text-4xl font-bold text-transparent md:text-5xl">
+        <h2 className="mb-16 bg-gradient-to-r from-sky-400 to-cyan-400 bg-clip-text text-center text-3xl font-bold text-transparent md:text-4xl">
           My Projects
         </h2>
 
