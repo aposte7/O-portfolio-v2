@@ -1,5 +1,4 @@
 import Menu from "./Menu";
-import { Link } from "react-router-dom";
 import { HiDownload } from "react-icons/hi";
 import { RiTelegram2Fill } from "react-icons/ri";
 import { TiSocialLinkedin } from "react-icons/ti";
@@ -20,9 +19,9 @@ const Header = ({ resumePdf, isOpen, toggleMenu }) => {
       <div className="fixed top-0 left-0 w-full bg-slate-950/85 py-4 text-lg text-gray-200 md:py-0">
         <nav className="mx-auto flex max-w-[1100px] flex-wrap items-center justify-between px-6">
           <div>
-            <Link className="text-3xl font-semibold text-sky-600" to="#home">
+            <a href="/" className="text-3xl font-semibold text-sky-600">
               OG
-            </Link>
+            </a>
           </div>
 
           <button

@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Menu = ({ isOpen }) => {
   return (
     <div
@@ -8,44 +6,44 @@ const Menu = ({ isOpen }) => {
     >
       <ul className="gap-3 bg-black/20 px-10 pt-4 text-base text-gray-200 md:flex md:justify-between md:pt-0">
         <li>
-          <Link
+          <a
             className="block py-2 hover:text-sky-400 active:text-sky-400 md:p-4"
-            to="#home"
+            href="#home"
           >
             Home
-          </Link>
+          </a>
         </li>
         <li>
-          <Link
+          <a
             className="block py-2 hover:text-sky-400 active:text-sky-400 md:p-4"
-            to="#project"
+            href="#project"
           >
             Project
-          </Link>
+          </a>
         </li>
         <li>
-          <Link
+          <a
             className="block py-2 hover:text-sky-400 active:text-sky-400 md:p-4"
-            to="#service"
+            href="#service"
           >
             Services
-          </Link>
+          </a>
         </li>
         <li>
-          <Link
+          <a
             className="block py-2 hover:text-sky-400 active:text-sky-400 md:p-4"
-            to="#skill"
+            href="#skill"
           >
             Skill
-          </Link>
+          </a>
         </li>
         <li>
-          <Link
+          <a
             className="block py-2 hover:text-sky-400 active:text-sky-400 md:p-4"
-            to="#contact"
+            href="#contact"
           >
             Contact
-          </Link>
+          </a>
         </li>
       </ul>
     </div>

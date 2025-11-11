@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Footer = () => {
   return (
     <footer className="mt-20 bg-slate-900 py-10 text-slate-400">
@@ -11,15 +9,15 @@ const Footer = () => {
           </div>
 
           <div className="flex space-x-6">
-            <Link to="#about" className="transition hover:text-white">
+            <a href="#about" className="transition hover:text-white">
               About
-            </Link>
-            <Link to="#projects" className="transition hover:text-white">
+            </a>
+            <a href="#projects" className="transition hover:text-white">
               Projects
-            </Link>
-            <Link to="#contact" className="transition hover:text-white">
+            </a>
+            <a href="#contact" className="transition hover:text-white">
               Contact
-            </Link>
+            </a>
           </div>
 
           <div className="flex space-x-4">
@@ -34,7 +32,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://aedin.com/in/yourusername"
               target="_blank"
               rel="noopener noreferrer"
               className="transition hover:text-white"
