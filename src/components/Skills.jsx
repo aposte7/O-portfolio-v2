@@ -39,17 +39,6 @@ const skillGroups = [
     ],
   },
   {
-    title: "DevOps & Tools",
-    iconColor: "text-green-500",
-    skills: [
-      { name: "Docker", Icon: SiDocker },
-      { name: "Git / GitHub", Icon: SiGit },
-      { name: "Vercel", Icon: SiVercel },
-      { name: "CI/CD", Icon: SiGit },
-      { name: "REST API", Icon: SiJavascript },
-    ],
-  },
-  {
     title: "Design & Soft",
     iconColor: "text-pink-500",
     skills: [
