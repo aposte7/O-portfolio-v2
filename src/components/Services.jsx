@@ -2,6 +2,7 @@ import {
   FaLaptopCode,
   FaMobileAlt,
   FaPaintBrush,
+  FaPlug,
   FaRocket,
 } from "react-icons/fa";
 import { SiSpeedtest, SiFigma } from "react-icons/si";
@@ -19,17 +20,17 @@ const services = [
     id: "mobile-dev",
     title: "Mobile-First Design",
     description:
-      "Pixel-perfect, fast-loading UIs that work flawlessly on phones and tablets.",
+      "Pixel perfect, fast loading UIs that work flawlessly on phones and tablets.",
     icon: <FaMobileAlt className="text-5xl text-purple-500" />,
     cta: { label: "View Demos", href: "#projects" },
   },
 
   {
-    id: "performance",
-    title: "Performance Optimization",
+    id: "api-integration",
+    title: "API Integration",
     description:
-      "Lightning fast load times, Core Web Vitals, and SEO ready code.",
-    icon: <SiSpeedtest className="text-5xl text-green-500" />,
+      "Integrate RESTful APIs to add dynamic features like data fetching, user interactions, and syncing with backend services.",
+    icon: <FaPlug className="text-5xl text-green-500" />,
     cta: { label: "Audit My Site", href: "mailto:your@email.com" },
   },
 ];
