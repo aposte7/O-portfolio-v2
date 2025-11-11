@@ -16,7 +16,7 @@ const Header = ({ resumePdf, isOpen, toggleMenu }) => {
         </div>
       </div>
 
-      <div className="fixed top-0 left-0 w-full bg-slate-950/85 py-4 text-lg text-gray-200 md:py-0">
+      <div className="fixed top-0 left-0 z-10 w-full bg-slate-950/85 py-4 text-lg text-gray-200 md:py-0">
         <nav className="mx-auto flex max-w-[1100px] flex-wrap items-center justify-between px-6">
           <div>
             <a href="/" className="text-3xl font-semibold text-sky-600">
@@ -46,19 +46,18 @@ const Header = ({ resumePdf, isOpen, toggleMenu }) => {
 
       <div className="mt-20 py-20">
         <div className="space-y-3 text-white">
-          <h1 className="text-3xl font-bold sm:text-5xl">
-            Hello I&apos;m <span className="text-sky-600">Olman</span>
+          <h1 className="text-2xl font-bold sm:text-5xl">
+            Hello, <span className="text-sky-600">Olman</span> here
           </h1>
           <div className="text-xl font-semibold sm:text-3xl">
-            <span className="text-sky-600"> | Frontend Developer</span>
+            <span className="text-sky-600">Fullstack Developer</span>
           </div>
 
           <p className="max-w-[40rem] text-[1rem] text-slate-300 sm:text-[1.1rem]">
             I&apos;m a 4th-year Software Engineering student at AASTU,
             passionate about web development. I love bringing ideas to life with
-            clean, responsive, and user-friendly designs. Whether it&apos;s
-            React, Tailwind CSS, or just coding something fun, I&rsquo;m always
-            up for a challenge and eager to learn new things!
+            clean, responsive, and user friendly designs , or just coding
+            something fun.
           </p>
           <div className="flex flex-wrap items-center gap-[7%] py-8">
             <a href={resumePdf} target="_blank" rel="noopener noreferrer">
