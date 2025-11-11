@@ -69,7 +69,7 @@ export default function Skills() {
           Tech Stack & Skills
         </h2>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto grid w-lg gap-8 md:w-full md:grid-cols-2 lg:grid-cols-4">
           {skillGroups.map((group) => (
             <div
               key={group.title}

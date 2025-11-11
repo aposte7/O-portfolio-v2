@@ -127,15 +127,10 @@ function App() {
   return (
     <>
       <Header resumePdf={resumePdf} isOpen={isOpen} toggleMenu={toggleMenu} />
-
       <Projects />
-
-      <Services services={services} />
-
-      <Skills technologies={technologies} />
-
+      <Services />
+      <Skills />
       <Contact submitted={submitted} handleSubmit={handleSubmit} />
-
       <Footer />
     </>
   );
